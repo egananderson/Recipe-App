@@ -10,13 +10,18 @@
 
 @interface RecipeViewController ()
 
+@property (strong) UITableView *tableView;
+
+
 @end
 
 @implementation RecipeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.tableView = [[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStylePlain];
+    [self.view addSubview:self.tableView];
 }
 
 - (void)didReceiveMemoryWarning {
