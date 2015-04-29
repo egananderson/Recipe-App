@@ -7,11 +7,12 @@
 //
 
 #import "RecipeViewController.h"
+#import "RecipesTableViewDataSource.h"
 
 @interface RecipeViewController ()
 
 @property (strong) UITableView *tableView;
-
+@property (strong) RecipesTableViewDataSource *dataSource;
 
 @end
 
@@ -22,6 +23,11 @@
     
     self.tableView = [[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStylePlain];
     [self.view addSubview:self.tableView];
+    self.dataSource = [RecipesTableViewDataSource new];
+    [self.dataSource registerTableView:self.tableView];
+    self.tableView.dataSource = self.dataSource;
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
