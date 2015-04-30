@@ -16,12 +16,12 @@ NSString static *cellID = @"cellID";
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
-    if (!cell) {
-        cell=[UITableViewCell new];
-    }
+    cell=[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellID];
+    
     cell.textLabel.text = [RARecipes titleAtIndex:indexPath.row];
-                        
-    [tableView addSubview:cell];
+    
+    cell.detailTextLabel.text = [RARecipes descriptionAtIndex:indexPath.row];
+
     return cell;
 }
 
