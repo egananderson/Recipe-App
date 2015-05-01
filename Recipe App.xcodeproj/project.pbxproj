@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		558C14341AF2BF6C00B12BFA /* RARecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 558C14331AF2BF6C00B12BFA /* RARecipeDetailViewController.m */; };
 		71F67B51192C8D6A00E609F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F67B50192C8D6A00E609F1 /* Foundation.framework */; };
 		71F67B53192C8D6A00E609F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F67B52192C8D6A00E609F1 /* CoreGraphics.framework */; };
 		71F67B55192C8D6A00E609F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F67B54192C8D6A00E609F1 /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		558C14321AF2BF6C00B12BFA /* RARecipeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RARecipeDetailViewController.h; sourceTree = "<group>"; };
+		558C14331AF2BF6C00B12BFA /* RARecipeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RARecipeDetailViewController.m; sourceTree = "<group>"; };
 		71F67B4D192C8D6A00E609F1 /* Recipe App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71F67B50192C8D6A00E609F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		71F67B52192C8D6A00E609F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -120,6 +123,8 @@
 				71F67B60192C8D6A00E609F1 /* RAAppDelegate.m */,
 				D0940A211AF1632F003819F2 /* RecipeViewController.h */,
 				D0940A221AF1632F003819F2 /* RecipeViewController.m */,
+				558C14321AF2BF6C00B12BFA /* RARecipeDetailViewController.h */,
+				558C14331AF2BF6C00B12BFA /* RARecipeDetailViewController.m */,
 				D0940A241AF16540003819F2 /* RARecipes.h */,
 				D0940A251AF16540003819F2 /* RARecipes.m */,
 				D0940A271AF16C94003819F2 /* RecipesTableViewDataSource.h */,
@@ -259,6 +264,7 @@
 				71F67B5D192C8D6A00E609F1 /* main.m in Sources */,
 				D0940A291AF16C94003819F2 /* RecipesTableViewDataSource.m in Sources */,
 				71F67B61192C8D6A00E609F1 /* RAAppDelegate.m in Sources */,
+				558C14341AF2BF6C00B12BFA /* RARecipeDetailViewController.m in Sources */,
 				D0940A231AF1632F003819F2 /* RecipeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
